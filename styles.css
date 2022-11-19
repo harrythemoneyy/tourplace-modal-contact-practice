@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CSS Common */
+
+.text-white {
+  color: #fff;
+}
+
+.place-heading,
+.place-time,
+.place-desc,
+.buy-btn {
+  margin-bottom: 15px;
+}
+
+/* CSS Begin: Tour section */
+
+.tour-section {
+  background-color: #000;
+}
+
+.tour-section .heading-section {
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 4px;
+  margin-bottom: 25px;
+}
+
+.tour-section .sub-heading-section {
+  font-style: italic;
+  text-align: center;
+  color: #fff;
+  opacity: 0.6;
+  margin-bottom: 30px;
+}
+
+.tour-section .book-list {
+  background-color: #fff;
+}
+
+.book-list {
+  list-style-type: none;
+}
+
+.book-list li {
+  border-bottom: 1px solid #ddd;
+  padding: 11px 8px;
+  font-size: 15px;
+  color: #757575;
+}
+
+.book-list .book-status {
+  color: #fff;
+  background-color: #f44336;
+  padding: 3px 8px;
+}
+
+.book-list .quantity {
+  float: right;
+  margin-right: 16px;
+  padding: 3px 8px;
+  border-radius: 50px;
+  color: #fff;
+  background-color: #000;
+}
+
+.tour-container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tour-place::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.tour-place {
+  padding: 32px 8px;
+  margin: 0 -16px;
+}
+
+.tour-place .place-items {
+  float: left;
+  width: 33.3333%;
+  padding: 0 8px;
+}
+
+.tour-place .place-body {
+  padding: 0 16px;
+  background-color: #fff;
+}
+
+.tour-place .place-img {
+  vertical-align: middle;
+  /* display: block; */
+  width: 100%;
+}
+
+.tour-place .place-heading {
+  padding-top: 15px;
+}
+
+.tour-place .place-time {
+  opacity: 0.6;
+}
+
+.tour-place .buy-btn {
+  border: none;
+  padding: 8px 16px;
+  color: #fff;
+  background-color: #000;
+}
+
+.tour-place .buy-btn:hover {
+  color: #000;
+  background-color: #ccc;
+}
